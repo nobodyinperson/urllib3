@@ -24,7 +24,7 @@ with codecs.open("CHANGES.rst", encoding="utf-8") as fp:
 version = VERSION
 
 setup(
-    name="urllib3",
+    name="python3-urllib3",
     version=version,
     description="HTTP library with thread-safe connection pooling, file post, and more.",
     long_description=u"\n\n".join([readme, changes]),
